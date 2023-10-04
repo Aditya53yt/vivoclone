@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+nav {
+  height: 86px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+nav .logo img {
+  position: relative;
+  width: 100px;
+  height: auto;
+}
+nav .ul-container ul {
+  display: flex;
+  list-style: none;
+}
+nav .ul-container ul li {
+  margin-left: 40px;
+}
+nav .right-container {
+  display: flex;
+  align-items: center;
+}
+nav .right-container i {
+  margin-right: 40px;
+}
+main .banner-container {
+  width: 100%;
+  height: auto;
+}
+main .banner-container img {
+  position: relative;
+  width: 100%;
+}
+main .banner2-container {
+  padding: 5% 8% 2%;
+}
+main .banner2-container img {
+  border-radius: 30px;
+  margin-bottom: 40px;
+}
+main .discover {
+  padding: 5% 8% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+main .discover img {
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.discover .sec-1 .first {
+  position: relative;
+}
+.discover .sec-1 .first .head {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+.discover .sec-2 .first {
+  position: relative;
+}
+.discover .sec-2 .first .head {
+  position: absolute;
+  bottom: 60px;
+  left: 40px;
+}
+.discover .sec-3 .first {
+  position: relative;
+}
+.discover .sec-3 .first .head {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color: white;
+}
+.discover .sec-1 .child-1 {
+  height: 100px;
+  padding-top: 20px;
+  padding-left: 40px;
+  line-height: 25px;
+}
+.discover .sec-3 .child-1 {
+  height: 100px;
+  padding-top: 20px;
+  padding-left: 40px;
+  line-height: 30px;
+}
+footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4% 8%;
+  background-color: #242933;
+  color: #8a8f99;
+}
+footer {
+  margin-top: 30px;
+}
+.footer-container .left-section {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container .left-section ul li:first-child {
+  color: white;
+}
+.footer-container .left-section ul li {
+  list-style: none;
+  line-height: 35px;
+}
+.footer-container .right-section ul li {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.footer-container .right-section ul li i {
+  margin-right: 10px;
+}
+.footer-container .right-section ul li h3 {
+  font-size: 28px;
+  line-height: 32px;
+  color: #415fff;
+}
+footer .copyright {
+  background-color: #415fff;
+  padding: 24px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.copyright ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-size: 13px;
+  line-height: 24px;
+  color: #c6cfff;
+}
+.copyright .left ul li {
+  margin-right: 20px;
+}
